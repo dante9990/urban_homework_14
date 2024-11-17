@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "firstName": "Alexey",
+  "lastName": "Soldatov",
+  "description": "Я стою в начале пути фронтенд-разработки, уже освоил HTML, CSS, JavaScript, TypeScript, React. Был опыт в тестировании своих проектов, но мне еще много чему надо научится.",
+  "email": "dante999000@gmail.com",
+  "phone": "8 800 333 35 35",
+  "socials": [
+    {
+      "id": 1,
+      "img": "https://cdn-icons-png.flaticon.com/512/5968/5968804.png",
+      "url": "#"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "img": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_js_icon_130458.png",
+      "name": "JavaScript"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn-icons-png.flaticon.com/512/919/919827.png",
+      "name": "HTML"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+      "name": "CSS"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn-icons-png.flaticon.com/256/919/919832.png",
+      "name": "TypeScript"
+    },
+    {
+      "id": 5,
+      "img": "https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
+      "name": "React"
+    }
+  ],
+  "projects": [
+    { "id": 1, "name": "urban_homework_13", "url": "https://github.com/dante9990/urban_homework_13" },
+    { "id": 2, "name": "urban_homework_12", "url": "https://github.com/dante9990/urban_homework_12" },
+    { "id": 3, "name": "urban_homework_5", "url": "https://github.com/dante9990/urban_homework_5" }
+  ]
+}

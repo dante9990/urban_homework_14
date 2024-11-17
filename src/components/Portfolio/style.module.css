@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 200px;
+}
+
+.subtitle,
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #62646c;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 58px;
+}
+
+@media (max-width: 570px) {
+    .container {
+        margin-top: 80px;
+    }
+}

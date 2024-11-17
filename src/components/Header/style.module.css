@@ -1,0 +1,18 @@
+.container {
+    margin: 0 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px #1c1c21 solid;
+    border-right: 1px #1c1c21 solid;
+}
+
+@media (max-width: 1090px) {
+    .container {
+        margin: 0 16px;
+        height: 108px;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+    }
+}

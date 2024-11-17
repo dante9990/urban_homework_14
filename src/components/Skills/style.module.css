@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #1c1c21;
+    border-bottom: 1px solid #1c1c21;
+    width: 100%;
+    padding: 20px 0;
+}
+
+@media (max-width: 580px) {
+    .container {
+        overflow: hidden;
+        justify-content: start;
+        gap: 16px;
+    }
+}

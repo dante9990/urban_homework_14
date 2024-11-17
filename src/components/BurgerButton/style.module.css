@@ -1,0 +1,20 @@
+.button {
+    border-left: 1px solid #1c1c21;
+    border-top: 1px solid #1c1c21;
+    border-top-left-radius: 20px;
+}
+
+.burgerWhite,
+.burgerBlack {
+    width: 28px;
+    height: 28px;
+    margin: 20px;
+}
+
+.burgerWhite {
+    background: url("../../assets/img/burger_white.svg") no-repeat;
+}
+
+.burgerBlack {
+    background: url("../../assets/img/burger_black.svg") no-repeat;
+}

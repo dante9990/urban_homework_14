@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: -1000px;
+    transition: all 0.5s;
+}
+
+.light {
+    background: #fff;
+}
+
+.dark {
+    background: #1e1e1e;
+}
+
+.active {
+    top: 0;
+}
+
+.link {
+    background: none;
+    text-transform: capitalize;
+    transition: background 500ms ease-in-out;
+    text-align: center;
+}
+
+
+
+.link:hover {
+    background: #1313165b;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.social {
+    position: absolute;
+    top: 5px;
+}
+
+.close {
+    position: absolute;
+    background-color: red;
+    background-image: url('../../assets/img/close.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    top: 5px;
+    right: 10px;
+    border: 1px solid #1c1c21;
+    border-radius: 5px;
+    cursor: pointer;
+}

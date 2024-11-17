@@ -1,0 +1,12 @@
+.logo {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1090px) {
+    .logo {
+        margin-left: 16px;
+        margin-bottom: 25px;
+    }
+}
